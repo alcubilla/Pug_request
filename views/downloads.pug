@@ -1,0 +1,6 @@
+h1.display-4 Número de descargas
+ul.list-group
+    each val in ImageCount
+        li.list-group-item.d-flex.justify-content-between.align-items-center.blockquote.text-center #{val.name}
+            span.badge.badge-primary.badge-pill #{val.count}
+
